@@ -1,7 +1,7 @@
 package tema1;
 
 public class FichaAgente {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         String alias;
 
         if (args.length > 0 && !args[0].trim().isEmpty()){
