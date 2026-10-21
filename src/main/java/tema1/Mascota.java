@@ -12,7 +12,7 @@ public class Mascota {
         long pid = ProcessHandle.current().pid();
 
         for (int i = 1; i <= pasos; i++){
-            System.out.println("PID: " + pasos + " / Mascota: " + nombre + " / Paso: " +i);
+            System.out.println("PID: " + pid + " / Mascota: " + nombre + " / Paso: " +i);
         }
     }
 }

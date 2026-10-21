@@ -7,10 +7,10 @@ public class ControlMision {
     static void main() {
         try {
             File clases = new File("build/classes/java/main").getCanonicalFile();
-            String ejecutableJava = obtenerEjecutableJava();
+            String ejecutarJava = obtenerEjecutableJava();
 
             ProcessBuilder processBuilder = new ProcessBuilder(
-                    ejecutableJava,
+                    ejecutarJava,
                     "-cp",
                     clases.getPath(),
                     "tema1.StarShip",
