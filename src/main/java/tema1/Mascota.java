@@ -6,7 +6,7 @@ public class Mascota {
         Comprobamos que se hayan pasado al menos 2 argumentos.
         Si no, sale y muestra el codigo 1.
          */
-        if (args.length <2){
+        if (args.length < 2){
             System.err.println("Error: Faltan argumentos.");
             System.exit(1);
         }
@@ -21,8 +21,8 @@ public class Mascota {
         long pid = ProcessHandle.current().pid();
 
         //Bucle para mostrar los pasos que esta dando la mascota, a parte de su pid y nombre.
-        for (int i = 0; i <= pasos; i++){
-            System.out.println("PID: " + pid + " / Mascota: " + nombre + " / Paso: " +i);
+        for (int i = 1; i <= pasos; i++){
+            System.out.println("PID: " + pid + " / Mascota: " + nombre + " / Paso: " + i);
         }
     }
 }

@@ -6,7 +6,7 @@ public class Oraculo {
         Si el array tiene menos de 2 elementos saldrá error.
         Usamos un System exit para que avise la padre con codigo 1.
          */
-        if (args.length < 2){
+        if (args.length <= 2){
             System.err.println("Errror: Faltan argumentos. Has usado: Oraculo <nombre> <pregunta>");
             System.exit(1);
         }
